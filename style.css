@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    max-width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table_list{
+    user-select: none;
+    border-collapse: collapse;
+}
+
+.table-list_head {
+    font-weight: 600;
+}
+
+td {
+    width: 190px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.paint {
+    background-color: #f6f625;
+}
